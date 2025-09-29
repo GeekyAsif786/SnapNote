@@ -67,6 +67,41 @@ npm run dev
 Open http://localhost:5173
  to view the app in your browser.
 
+## Recommended Folder Structure
+```php
+SnapNote/
+│
+├─ public/
+│   ├─ favicon.ico
+│   └─ index.html
+│
+├─ src/
+│   ├─ assets/                # Images, icons, logos
+│   │   ├─ logo.png
+│   │   └─ ...
+│   │
+│   ├─ components/            # Reusable UI components
+│   │   ├─ Home.jsx
+│   │   ├─ Paste.jsx
+│   │   ├─ ViewPaste.jsx
+│   │   ├─ NavBar.jsx
+│   │   └─ ...
+│   │
+│   ├─ redux/                  # Redux slices and store
+│   │   ├─ pasteSlice.js
+│   │   └─ store.js
+│   │
+│   ├─ App.jsx                 # Main app component
+│   ├─ main.jsx                # React entry point
+│   └─ index.css               # Global styles
+│
+├─ .gitignore
+├─ package.json
+├─ tailwind.config.js
+├─ postcss.config.js
+├─ README.md
+└─ vite.config.js              # If using Vite
+```
 
 ## Contributing
 
