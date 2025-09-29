@@ -46,7 +46,7 @@ Notifications: React Hot Toast
 
 
 Check out the app online:
-[SnapNote]((https://snap-note-eight.vercel.app/) 
+[SnapNote](https://snap-note-eight.vercel.app/) 
 
 ## Usage/Examples
 
